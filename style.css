@@ -130,3 +130,6 @@ hr {
 .bar.medium {
     width: 100px;
 }
+img {
+  border-radius: 50%;
+}
