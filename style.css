@@ -122,6 +122,12 @@ hr {
     background-color: black;
     margin-left: 10px;
 }
+.vertical-line {
+  width: 1px;
+  background-color: black;
+  height: 100%;
+  margin: 0 15px;
+}
 
 .bar.full {
     width: 150px;
