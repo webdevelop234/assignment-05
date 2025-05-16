@@ -132,3 +132,12 @@ hr {
 .bar.medium {
     width: 100px;
 }
+  .personal {
+    font-family: Arial, sans-serif;
+  }
+
+  .personal span {
+    display: inline-block;
+    margin-right: 15px; /* Increase this value for more spacing */
+    white-space: nowrap; /* Prevent line breaks */
+  }
