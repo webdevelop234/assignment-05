@@ -7,12 +7,6 @@ body {
   color: black;
 }
 
-.container {
-  width: 800px;
-  margin: auto;
-  padding: 20px;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -20,10 +14,10 @@ body {
 }
 
 .profile-img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: #ccc;
+  width: 150px; /* Adjusted to typical CV photo width */
+  height: 200px; /* Adjusted to typical CV photo height */
+  border-radius: 10px; /* Optional: rounds the corners */
+  object-fit: cover; /* Ensures the image fills the area nicely */
 }
 
 .info h2 {
@@ -32,6 +26,12 @@ body {
 
 .contact p {
   margin: 2px 0;
+
+}
+
+.personal {
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 .personal {
@@ -132,9 +132,7 @@ hr {
 .bar.medium {
     width: 100px;
 }
-  .personal {
-    font-family: Arial, sans-serif;
-  }
+  
 
   .personal span {
     display: inline-block;
