@@ -19,26 +19,43 @@ body {
   align-items: center;
 }
 
+/* Profile Image — make circular and smaller */
 .profile-img {
-  width: 150px; /* Adjusted to typical CV photo width */
-  height: 200px; /* Adjusted to typical CV photo height */
-  border-radius: 10px; /* Optional: rounds the corners */
-  object-fit: cover; /* Ensures the image fills the area nicely */
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
 }
 
-.info h2 {
-  margin: 0;
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.contact p {
+/* Name and Contact alignment */
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-info {
+  line-height: 1.6;
+}
+
+.contact-info p {
   margin: 2px 0;
 }
 
-.personal {
-  margin-top: 10px;
+/* Nationality line spacing */
+.personal-details {
   font-size: 14px;
+  margin-top: 10px;
+  word-spacing: 15px;
 }
-
 .section {
   margin-top: 30px;
 }
